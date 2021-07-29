@@ -1,0 +1,13 @@
+streamlit
+datetime
+yfinance
+plotly
+altair
+PIL
+Pillow
+sklearn
+tensorflow
+keras
+numpy
+pandas
+matplotlib
