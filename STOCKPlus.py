@@ -11,7 +11,7 @@ from PIL import Image
 
 nav = st.sidebar.radio("MENU",["Home","Prediction","Screener","Process Flow","About us"])
 
-image = Image.open("C:/Users/fahad/Desktop/Fahad/Fahad/Fahad/PBL/Final/SG23/BMSITM.png")
+image = Image.open("BMSITM.png")
 st.image(image, caption='',width = 500)
 
 if nav == "Home":
@@ -20,7 +20,7 @@ if nav == "Home":
     st.header('STOCK PRICE PREDICTION WEB APPLICATION')           
     #st.image("C:/Users/fahad/Desktop/Fahad/FahadFahad/PBL/Final/PBL Final/data/img.jpeg")
     from PIL import Image
-    image = Image.open("C:/Users/fahad/Desktop/Fahad/Fahad/Fahad/PBL/Final/SG23/image.jpg")
+    image = Image.open("image.jpg")
     st.image(image, caption='Stock Price Prediction', width=800)
     
     st.header('Our application is the act of trying to determine the future price of a company stock. The successful prediction of a stocks future price could yield significant profit. It basically works with the past values of the company and gives the approximate range of the stock price.')    
@@ -233,7 +233,7 @@ if nav == "Prediction":
             
         st.header(' ')
         from PIL import Image
-        image = Image.open("C:/Users/fahad/Desktop/Fahad/Fahad/Fahad/PBL/Final/SG23/disclaimer.jpeg")
+        image = Image.open("disclaimer.jpeg")
         st.image(image, caption='DISCLAIMER', width = 200)
         
         st.header("DISCLAIMER !!")
@@ -249,11 +249,11 @@ if nav == "Screener"  :
     if  st.button("SUBMIT"):
         
         from PIL import Image
-        image = Image.open("C:/Users/fahad/Desktop/Fahad/Fahad/Fahad/PBL/Final/SG23/NSE.jpg")
+        image = Image.open("NSE.jpg")
         st.image(image, caption='National Stock Exchange', width = 600)
     
         from PIL import Image
-        image = Image.open("C:/Users/fahad/Desktop/Fahad/Fahad/Fahad/PBL/Final/SG23/BSE.jpg")
+        image = Image.open("BSE.jpg")
         st.image(image, caption='Bomaby Stock Exchnage', width = 600)
         
        
@@ -307,7 +307,7 @@ digraph{
                 ''')
     
     from PIL import Image
-    image = Image.open("C:/Users/fahad/Desktop/Fahad/Fahad/Fahad/PBL/Final/SG23/block.jpg")
+    image = Image.open("block.jpg")
     st.image(image, caption='BLOCK DIAGRAM')
       
 
@@ -317,7 +317,7 @@ if nav == "About us":
     st.write("Presently in 4th Sem B.E in Electronics and Communication Engineering in B.M.S Institute of Technology and Management, to be completed in the year 2023. We are a smartworking team who defines time and completes task pre hand, an opportunity explorer.")
     
     from PIL import Image
-    image = Image.open("C:/Users/fahad/Desktop/Fahad/Fahad/Fahad/PBL/Final/SG23/Team.jpg")
+    image = Image.open("Team.jpg")
     st.image(image, caption='TEAM WORK')
     
     st.subheader("Submitted By SG23")
